@@ -1,0 +1,59 @@
+.title {
+  text-align: center;
+  color: #4CAF50;
+  /* Cambia el color del título a verde */
+}
+
+.error {
+  color: red;
+}
+
+.line-validator {
+  display: flex;
+  justify-content: space-between;
+  /* Alinea los elementos a los extremos */
+}
+
+.success {
+  color: rgb(0, 255, 0);
+}
+
+.area {
+  height: 500px;
+  background-color: #141417;
+  /* Añade un fondo oscuro al área de código */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #4CAF50;
+  /* Cambia el color de fondo del botón a verde */
+  color: white;
+  /* Cambia el color del texto del botón a blanco */
+  padding: 10px 20px;
+  /* Añade un poco de padding al botón */
+  border-radius: 5px;
+  /* Redondea las esquinas del botón */
+}
